@@ -8,7 +8,7 @@ This assignment builds upon the foundation laid in Assignment 3, extending the s
 2. **username (string):** The username of the user. This field holds a unique identifier for the user.
 3. **email (string):** The email address of the user. This field stores the user's email, ensuring it is unique.
 4. **password (string):** The password associated with the user's account. This field contains the user's securely hashed password. Password must be in 6 characters. Ensure that there are no additional validation requirements for passwords, such as needing a special character or a capital letter, etc. After getting marks do the changes you like.
-5. **role ('user' | 'admin'):** The role of the user, which can be either 'user' or 'admin'. This field determines the user's level of access or permissions.
+5. **role ('user' | 'admin'):** The role of the user, which can be either 'user' or 'admin'. This field determines the user's level of access or permissions. The default role is set to 'user'.
 
 ## 2. **Course Model:**
 
@@ -142,8 +142,8 @@ Authorization: <JWT_TOKEN>
 
 ```json
 {
-    "currentPassword": "securePassword123",
-    "newPassword": "newSecurePassword456"
+    "currentPassword": "123456",
+    "newPassword": "new123456"
 }
 ```
 
@@ -252,7 +252,7 @@ Authorization: <JWT_TOKEN>
                 "level": "Beginner",
                 "description": "A comprehensive introduction to web development."
             },
-            "createdBy": "adminUserId", 
+            "createdBy": "adminUserId", // Include an addition during assignment 4
             "createdAt": "2023-01-15T12:00:00.000Z",
             "updatedAt": "2023-01-15T12:00:00.000Z"
         }
@@ -325,7 +325,7 @@ Example: ?level=Intermediate
                         "level": "Beginner",
                         "description": "A comprehensive introduction to web development."
                     },
-                    "createdBy": {
+                    "createdBy": {  // Include an addition during assignment 4
                         "_id": "adminUserId",
                         "username": "adminUser",
                         "email": "admin@example.com",
@@ -393,7 +393,7 @@ Example: ?level=Intermediate
                     {
                         "_id": "12345abcde67890fghij",
                         "name": "Web Development",
-                        "createdBy": {
+                        "createdBy": {  // Include an addition during assignment 4
         				            "_id": "adminUserId",
         				            "username": "adminUser",
         				            "email": "admin@example.com",
@@ -442,7 +442,7 @@ Example: ?level=Intermediate
                 "courseId": "67890fghij54321abcde",
                 "rating": 4,
                 "review": "Great course, very informative and well-structured.",
-                "createdBy": {
+                "createdBy": {   // Include an addition during assignment 4
                     "_id": "UserId",
                     "username": "username",
                     "email": "user@example.com",
@@ -510,7 +510,7 @@ Example: ?level=Intermediate
                     "level": "Intermediate",
                     "description": "A comprehensive course on web development with a focus on JavaScript."
                 },
-                "createdBy": {
+                "createdBy": {   // Include an addition during assignment 4
                     "_id": "adminUserId",
                     "username": "adminUser",
                     "email": "admin@example.com",
@@ -555,7 +555,7 @@ Example: ?level=Intermediate
                         "level": "Intermediate",
                         "description": "A comprehensive course on web development with a focus on JavaScript."
                     },
-                    "createdBy": {
+                    "createdBy": {   // Include an addition during assignment 4
         		            "_id": "adminUserId",
         		            "username": "adminUser",
         		            "email": "admin@example.com",
@@ -570,12 +570,12 @@ Example: ?level=Intermediate
                         "courseId": "67890fghij54321abcde",
                         "rating": 4,
                         "review": "Great course, very informative and well-structured.",
-                        "createdBy": {
-        				            "_id": "userid",
-        					           "username": "username",
-        					            "email": "user@example.com",
-        					            "role": "user"
-        				        },
+                        "createdBy": {    // Include an addition during assignment 4
+                                "_id": "userid",
+                                "username": "username",
+                                "email": "user@example.com",
+                                "role": "user"
+                        },
                         "createdAt": "2023-01-15T12:00:00.000Z",
                         "updatedAt": "2023-01-15T12:00:00.000Z"
                     },
@@ -623,12 +623,12 @@ Example: ?level=Intermediate
                         "level": "Intermediate",
                         "description": "Detailed description of the course"
                     },
-        						"createdBy": {
-        				         "_id": "userid",
-        					       "username": "username",
-        					       "email": "user@example.com",
-        					        "role": "user"
-        				    },
+                    "createdBy": {
+                        "_id": "userid",
+                        "username": "username",
+                        "email": "user@example.com",
+                        "role": "user"
+                    },
                     "createdAt": "2023-01-15T12:00:00.000Z",
                     "updatedAt": "2023-01-15T12:00:00.000Z"
                 },
