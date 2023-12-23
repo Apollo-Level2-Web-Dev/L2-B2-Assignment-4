@@ -704,8 +704,11 @@ Example: ?level=Intermediate
     - **Live Link:** Provide a live link to your GitHub repository for evaluation.
     - **Code Quality:** Follow best practices for code quality, readability, and maintainability.
     - **Documentation:** Thoroughly document your API endpoints, request/response formats, and any other relevant information.
-    - **Testing:** Ensure that your system is well-tested, covering various scenarios and edge cases.
     - **Security:** Prioritize the security of user data, passwords, and access controls.
-    - **Deadline:** Submit your assignment by the specified deadline.
+
+### **Deadline:**
+
+- 60 marks: December 28, 2023 11.59PM
+- 50 marks: December 29, 2023 11.59PM
     
     Good luck with your assignment! If you have any questions, feel free to reach out for clarification.
