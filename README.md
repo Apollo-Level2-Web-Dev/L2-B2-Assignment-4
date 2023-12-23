@@ -719,4 +719,4 @@ Example: ?level=Intermediate
 - 60 marks: December 28, 2023 11.59PM
 - 50 marks: December 29, 2023 11.59PM
     
-    Good luck with your assignment! If you have any questions, feel free to reach out for clarification.
+*Good luck with your assignment!*
