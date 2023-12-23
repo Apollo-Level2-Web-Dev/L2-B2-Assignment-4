@@ -394,11 +394,11 @@ Example: ?level=Intermediate
                         "_id": "12345abcde67890fghij",
                         "name": "Web Development",
                         "createdBy": {  // Include an addition during assignment 4
-        				            "_id": "adminUserId",
-        				            "username": "adminUser",
-        				            "email": "admin@example.com",
-        				            "role": "admin"
-        				        },
+                            "_id": "adminUserId",
+                            "username": "adminUser",
+                            "email": "admin@example.com",
+                            "role": "admin"
+                        },
                         "createdAt": "2023-01-15T12:00:00.000Z",
                         "updatedAt": "2023-01-15T12:00:00.000Z"
                     },
@@ -556,11 +556,11 @@ Example: ?level=Intermediate
                         "description": "A comprehensive course on web development with a focus on JavaScript."
                     },
                     "createdBy": {   // Include an addition during assignment 4
-        		            "_id": "adminUserId",
-        		            "username": "adminUser",
-        		            "email": "admin@example.com",
-        		            "role": "admin"
-        		        },
+                        "_id": "adminUserId",
+                        "username": "adminUser",
+                        "email": "admin@example.com",
+                        "role": "admin"
+                    },
                     "createdAt": "2023-01-15T12:00:00.000Z",
                     "updatedAt": "2023-01-16T12:30:00.000Z"
                 },
@@ -571,10 +571,10 @@ Example: ?level=Intermediate
                         "rating": 4,
                         "review": "Great course, very informative and well-structured.",
                         "createdBy": {    // Include an addition during assignment 4
-                                "_id": "userid",
-                                "username": "username",
-                                "email": "user@example.com",
-                                "role": "user"
+                            "_id": "userid",
+                            "username": "username",
+                            "email": "user@example.com",
+                            "role": "user"
                         },
                         "createdAt": "2023-01-15T12:00:00.000Z",
                         "updatedAt": "2023-01-15T12:00:00.000Z"
