@@ -720,6 +720,6 @@ Example: ?level=Intermediate
 ### **Deadline:**
 
 - 60 marks: December 28, 2023 11.59PM
-- 50 marks: December 29, 2023 11.59PM
+- 50 marks: December 30, 2023 11.59PM
     
 *Good luck with your assignment!*
