@@ -47,7 +47,7 @@ Create Private repo link: [https://classroom.github.com/a/Kx-KeiOp](https://clas
 
 ### 1. User Registration
 
-- **Route:** `/auth/register`
+- **Route:** `/api/auth/register`
 - **Method:** POST
 - **Request Body:**
     
@@ -82,7 +82,7 @@ Create Private repo link: [https://classroom.github.com/a/Kx-KeiOp](https://clas
 
 ### 2. User Login
 
-- **Route:** `/auth/login`
+- **Route:** `/api/auth/login`
 - **Method:** POST
 - **Request Body:**
     
@@ -133,7 +133,7 @@ In this example:
 
 ### **3. Change Password**
 
-- **Route:** **`/auth/change-password`**
+- **Route:** **`/api/auth/change-password`**
 - **Method:** POST
 - **Request Headers:**
 
